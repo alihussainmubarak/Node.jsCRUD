@@ -1,0 +1,21 @@
+<div class="jumbotron">
+    <h1 class="display-5">{{ title }}</h1>
+</div>
+
+<form action="/post/edit/{{ post._id }}" method="post">
+
+<div class="form-group">
+    <label for="title">Title:</label>
+    <input class="form-control" name="title" type="text" value="{{ post.title }}">
+</div>
+
+<div class="form-group">
+    <label for="body">Body:</label>
+    <textarea class="form-control" name="body" cols="30" rows="5">
+        {{ post.body }}
+    </textarea>
+</div>
+
+<button class="btn btn-info" type="submit">Update</button>
+
+</form>

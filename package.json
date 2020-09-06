@@ -1,0 +1,23 @@
+{
+  "name": "nodejscrud",
+  "version": "1.0.0",
+  "description": "CRUD PRJECT 3/ September / 2020",
+  "main": "app.js",
+  "engines": {
+    "node": "14.9.0"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "alihussainmubarak"
+  ],
+  "author": "Ali Hussain Mubarak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.10.2"
+  }
+}

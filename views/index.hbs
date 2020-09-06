@@ -1,0 +1,14 @@
+<div class="jumbotron">
+    <h1 class="display-5">{{ title }}</h1>
+</div>
+
+{{#each posts }}
+<div class="card my-3">
+    
+    <div class="card-header">{{ this.title }}</div>
+    <div class="card-body">{{ this.body }}</div>
+    <div class="card-footer">
+    <a class="btn btn-secondary" href="/post/{{ this._id }}">Read more</a>
+    </div>
+</div>
+{{/each }}
